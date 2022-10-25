@@ -2,6 +2,9 @@
 name = "itunes-rs"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "library to allow communicating with iTunes on windows"
+repository = "https://github.com/DDRBoxman/itunes-rs"
 
 [dependencies]
 windows = { version = "0.43.0", features = ["interface", "implement", "Win32_System_Com", "Win32_System_Ole", "Win32_Foundation"] }
