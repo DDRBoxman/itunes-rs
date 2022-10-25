@@ -1,0 +1,8 @@
+[package]
+name = "itunes-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows = { version = "0.43.0", features = ["interface", "implement", "Win32_System_Com", "Win32_System_Ole", "Win32_Foundation"] }
+anyhow = "1.0"
